@@ -1,7 +1,7 @@
-name: wazo-plugind-filebrowser
-namespace: potoo
+name: connectino-sound-plugins
+namespace: connectino
 version: 0.0.3
-author: Benoît Stahl
-display_name: wazo-plugind-filebrowser
-description: This plugin install filebrowser for more information see filebrowser.org
-homepage: https://github.com/benasse/wazo-plugind-filebrowser
+author: Mojtaba Karimi
+display_name: connectino-sound-plugins
+description: This plugin install sounds for connectino-sound-plugins
+homepage: https://github.com/connectino-platform/wazo-sounds-plugin.git
