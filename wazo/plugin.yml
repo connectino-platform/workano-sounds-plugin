@@ -1,6 +1,6 @@
 name: sounds-plugin
 namespace: connectino
-version: 0.0.3
+version: 1.0.0
 author: Mojtaba Karimi
 display_name: connectino-sound-plugins
 description: This plugin install sounds for connectino-sound-plugins
