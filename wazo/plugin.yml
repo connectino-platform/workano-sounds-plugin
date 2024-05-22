@@ -1,7 +1,7 @@
-name: sounds-plugin
-namespace: connectino
+name: workno-fa-sounds-plugin
+namespace: workano
 version: 1.0.0
-author: Mojtaba Karimi
-display_name: connectino-sound-plugins
+author: Milad Razban
+display_name: workano-sound-plugins
 description: This plugin install sounds for connectino-sound-plugins
-homepage: https://github.com/connectino-platform/wazo-sounds-plugin.git
+homepage: https://workano.com
