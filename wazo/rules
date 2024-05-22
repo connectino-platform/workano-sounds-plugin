@@ -4,16 +4,16 @@
 
 case "$1" in
     build)
-      mkdir  -p /tmp/wazo_plugind_sounds_plugin_workano
-      cp -r  wazo_plugind_sounds_plugin_workano/sounds  /tmp/wazo_plugind_sounds_plugin_wokano/sounds
+      mkdir  -p /tmp/workano_fa_sounds
+      cp -r  workano_fa_sounds/sounds  /tmp/workano_fa_sounds/sounds
         ;;
 
     package)
         ;;
 
     install)
-        tar -xvf /tmp/wazo_plugind_sounds_plugin_workano/sounds/fa_IR.tar.gz -C /usr/share/asterisk/sounds/ 
-        rm -rf /tmp/wazo_plugind_sounds_plugin_workano
+        tar -xvf /tmp/workano_fa_sounds/sounds/fa_IR.tar.gz -C /usr/share/asterisk/sounds/ 
+        rm -rf /tmp/workano_fa_sounds
         ;;
 
     uninstall)
