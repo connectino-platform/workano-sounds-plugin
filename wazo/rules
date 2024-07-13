@@ -6,7 +6,7 @@ case "$1" in
     build)
       mkdir  -p /tmp/workano_fa_sounds
       cp -r  workano_fa_sounds/sounds  /tmp/workano_fa_sounds/sounds
-      cp /etc/asterisk/say.conf ${pkgdir}/etc/asterisk/
+      cp /etc/asterisk/say.conf /etc/asterisk/
         ;;
 
     package)
@@ -20,7 +20,7 @@ case "$1" in
 
     uninstall)
     rm -rf  /usr/share/asterisk/sounds/fa_IR
-    rm /etc/asterisk/say.conf ${pkgdir}/etc/asterisk/
+    rm /etc/asterisk/say.conf
     asterisk -x 'dialplan reload'
         ;;
 
