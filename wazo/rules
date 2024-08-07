@@ -6,7 +6,7 @@ case "$1" in
     build)
       mkdir  -p /tmp/workano_fa_sounds
       cp -r  workano_fa_sounds/sounds  /tmp/workano_fa_sounds/sounds
-      cp /etc/asterisk/say.conf /etc/asterisk/
+      cp -R etc ${pkgdir}/
         ;;
 
     package)
